@@ -1,7 +1,6 @@
 pygame
-pickle
-json
 discogs_client
 coverlovin2
 requests
 pathlib
+json
