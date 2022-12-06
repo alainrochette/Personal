@@ -14,7 +14,8 @@ dc = discogs_client.Client('ExampleApplication/0.1',user_token="AFgBxqbEvFlOWRwI
 
 import pathlib
 # fp = "/Users/alainrochette/MyGit/Personal/RB/"
-fp = ""
+# fp = ""
+fp = os.path.dirname(__file__)
 
 def inKeys(keys, L):
 	if isinstance(keys, list):
