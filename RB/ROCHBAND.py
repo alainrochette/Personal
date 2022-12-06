@@ -2,13 +2,15 @@
 
 import pygame
 
-pygame.init()
 
 
 from Song import *
 from Player import *
 from variables import *
 from Menu import *
+
+
+pygame.init()
 
 os.environ["SDL_VIDEODRIVER"] = "dummy"
 
