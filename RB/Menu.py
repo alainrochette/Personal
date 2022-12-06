@@ -8,7 +8,7 @@ from Player import *
 class Menu:
 
 	def __init__(self,screen, clock, dim):
-		
+
 		self.W = dim[0]
 		self.H = dim[1]
 		self.theme = BLACK
@@ -185,7 +185,10 @@ class Menu:
 		self.playPreview()
 
 	def loadMain(self):
-		pygame.mixer.music.stop()
+		try:
+			pygame.mixer.music.stop()
+		except:
+			pass
 		self.record = False
 		self.menuType = "Main"
 		self.loadType = "Main Menu"
