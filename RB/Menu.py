@@ -60,7 +60,9 @@ class Menu:
 		else:
 			self.my_joystick = pygame.joystick.Joystick(0)
 			self.my_joystick.init()
-
+		print(os.path.exists('Assets'))
+		print(os.path.exists('Assets/Fonts'))
+		print(os.path.exists('Assets/Fonts/Minotaur.ttf'))
 		self.font = pygame.font.Font("Minotaur.ttf", 40 * int(self.H / 740))
 		# self.font = pygame.font.Font(fp + 'Assets/Fonts/UNI.otf', 40 * int(self.H / 740))
 		self.bigfont = pygame.font.Font(fp + 'Assets/Fonts/Uni Sans Heavy.otf', 60* int(self.H / 740))
