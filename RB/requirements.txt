@@ -3,4 +3,3 @@ discogs_client
 coverlovin2
 requests
 pathlib
-libasound2
