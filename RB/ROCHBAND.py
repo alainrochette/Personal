@@ -10,10 +10,12 @@ from Player import *
 from variables import *
 from Menu import *
 
+os.environ["SDL_VIDEODRIVER"] = "dummy"
+
 # WINDOW_SIZE = [W, H]
 
 
-# pygame.mouse.set_visible(False)
+pygame.mouse.set_visible(False)
 
 
 info = pygame.display.Info() # You have to call this before pygame.display.set_mode()
@@ -38,3 +40,4 @@ with open(fp + 'cache/Preferences.txt', 'wb') as fp:
 		pickle.dump({"lag": menu.lag}, fp)
 
 pygame.quit()
+exit()
