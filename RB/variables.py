@@ -13,7 +13,8 @@ import requests
 dc = discogs_client.Client('ExampleApplication/0.1',user_token="AFgBxqbEvFlOWRwIcGtqrRGANUttwrfzncekMGbi")
 
 import pathlib
-fp = "/Users/alainrochette/MyGit/Personal/RB/"
+# fp = "/Users/alainrochette/MyGit/Personal/RB/"
+fp = ""
 
 def inKeys(keys, L):
 	if isinstance(keys, list):
