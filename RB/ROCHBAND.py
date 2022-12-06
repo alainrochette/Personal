@@ -13,7 +13,9 @@ from Menu import *
 # WINDOW_SIZE = [W, H]
 
 
-pygame.mouse.set_visible(False)
+# pygame.mouse.set_visible(False)
+
+
 info = pygame.display.Info() # You have to call this before pygame.display.set_mode()
 W,H = info.current_w,info.current_h
 screen = pygame.display.set_mode([W,H], pygame.FULLSCREEN)
