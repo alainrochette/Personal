@@ -1,7 +1,5 @@
 pygame
-time
 pickle
-math
 json
 discogs_client
 coverlovin2
