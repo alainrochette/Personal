@@ -199,7 +199,10 @@ class Menu:
 
 	def loadMenu(self):
 		if (pygame.time.get_ticks() - self.previewTime)/1000 >= 7:
-			pygame.mixer.music.fadeout(2000)
+			try:
+				pygame.mixer.music.fadeout(2000)
+			except:
+				pass
 		# i = 0
 		if self.menuType == "Main":
 			self.addText("Open Hi Hat: " + ("Yes" if self.openhihatMode else "No"),self.theme_opp,self.topRight,big=False,align="right")
