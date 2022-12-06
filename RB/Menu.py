@@ -8,7 +8,7 @@ from Player import *
 class Menu:
 
 	def __init__(self,screen, clock, dim):
-		pygame.mixer.init()
+		
 		self.W = dim[0]
 		self.H = dim[1]
 		self.theme = BLACK
