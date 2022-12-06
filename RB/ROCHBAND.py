@@ -40,4 +40,4 @@ with open(fp + 'cache/Preferences.txt', 'wb') as fp:
 		pickle.dump({"lag": menu.lag}, fp)
 
 pygame.quit()
-exit()
+# exit()
