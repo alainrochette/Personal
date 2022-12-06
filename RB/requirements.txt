@@ -1,0 +1,10 @@
+pygame
+os
+time
+pickle
+math
+json
+discogs_client
+coverlovin2
+requests
+pathlib
